@@ -20,7 +20,7 @@ services:
     container_name: php_server
     build:
       context: ./
-      dockerfile: Dockerfile
+#      dockerfile: Dockerfile
     volumes:
       - ./app:/var/www/html/
     ports:
